@@ -1,3 +1,5 @@
+ENV["HOME"] = <%= @working_directory.split('/')[0..-3].join('/') %>
+
 ##
 # Unicorn config at <%= @name %>
 # Managed by Chef - Local Changes will be Nuked from Orbit (just to be sure)
