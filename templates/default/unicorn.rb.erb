@@ -1,4 +1,4 @@
-ENV["HOME"] = <%= @working_directory.split('/')[0..-3].join('/') %>
+ENV["HOME"] = "<%= @working_directory.split('/')[0..-3].join('/') %>"
 
 ##
 # Unicorn config at <%= @name %>
